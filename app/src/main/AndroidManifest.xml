@@ -15,9 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".mapActivity"></activity>
-        <activity android:name=".LocationActivity" />
         <activity android:name=".scannerView" />
-        <activity android:name=".ScanQRCodeActivity" />
         <activity android:name=".QRcodeGenerator" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />

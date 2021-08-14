@@ -54,8 +54,8 @@ public class scannerView extends AppCompatActivity implements ZXingScannerView.R
     @Override
     public void handleResult(final Result rawResult) {
 
-        LocationActivity.text = rawResult.getText();
-        Intent intent = new Intent(getApplicationContext(),LocationActivity.class);
+        MainActivity.text = rawResult.getText();
+        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
         startActivity(intent);
 
         //BackPressed(startActivity(intent));
