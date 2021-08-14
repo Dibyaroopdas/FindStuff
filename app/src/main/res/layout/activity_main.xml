@@ -6,10 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Added Items"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:id="@+id/title"
+        android:layout_margin="10dp"
+        android:alpha="0.5"/>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/fragment_container">
+        android:id="@+id/fragment_container"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp">
     </FrameLayout>
 
 
